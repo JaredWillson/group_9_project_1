@@ -1,0 +1,132 @@
+county,Fuel,Year,Vehicles
+Alameda,Battery Electric,2020,4340
+Alameda,Battery Electric,2021,4750
+Alpine,Battery Electric,2020,5
+Alpine,Battery Electric,2021,15
+Alpine,Battery Electric,2022,25
+Amador,Battery Electric,2020,130
+Amador,Battery Electric,2021,185
+Butte,Battery Electric,2020,365
+Butte,Battery Electric,2021,430
+Butte,Battery Electric,2022,370
+Calaveras,Battery Electric,2020,220
+Calaveras,Battery Electric,2021,250
+Colusa,Battery Electric,2020,30
+Colusa,Battery Electric,2021,60
+Colusa,Battery Electric,2022,45
+Contra Costa,Battery Electric,2020,2435
+Contra Costa,Battery Electric,2021,2790
+Del Norte,Battery Electric,2020,85
+Del Norte,Battery Electric,2021,100
+El Dorado,Battery Electric,2020,560
+El Dorado,Battery Electric,2021,685
+El Dorado,Battery Electric,2022,80
+Fresno,Battery Electric,2020,1355
+Fresno,Battery Electric,2021,1535
+Glenn,Battery Electric,2020,65
+Glenn,Battery Electric,2021,85
+Glenn,Battery Electric,2022,115
+Humboldt,Battery Electric,2020,485
+Humboldt,Battery Electric,2021,535
+Imperial,Battery Electric,2020,145
+Imperial,Battery Electric,2021,185
+Inyo,Battery Electric,2020,45
+Inyo,Battery Electric,2021,70
+Kern,Battery Electric,2020,955
+Kern,Battery Electric,2021,1160
+Kings,Battery Electric,2020,125
+Kings,Battery Electric,2021,140
+Lake,Battery Electric,2020,245
+Lake,Battery Electric,2021,270
+Lassen,Battery Electric,2020,25
+Lassen,Battery Electric,2021,40
+Lassen,Battery Electric,2022,70
+Los Angeles,Battery Electric,2020,18405
+Los Angeles,Battery Electric,2021,20485
+Los Angeles,Battery Electric,2022,5310
+Madera,Battery Electric,2020,220
+Madera,Battery Electric,2021,255
+Marin,Battery Electric,2020,1535
+Marin,Battery Electric,2021,1675
+Mariposa,Battery Electric,2020,45
+Mariposa,Battery Electric,2021,55
+Mendocino,Battery Electric,2020,465
+Mendocino,Battery Electric,2021,540
+Merced,Battery Electric,2020,390
+Merced,Battery Electric,2021,500
+Modoc,Battery Electric,2022,10
+Mono,Battery Electric,2020,40
+Mono,Battery Electric,2021,50
+Mono,Battery Electric,2022,10
+Monterey,Battery Electric,2020,970
+Monterey,Battery Electric,2021,1140
+Napa,Battery Electric,2020,355
+Napa,Battery Electric,2021,410
+Nevada,Battery Electric,2020,275
+Nevada,Battery Electric,2021,340
+Nevada,Battery Electric,2022,405
+Orange,Battery Electric,2020,4460
+Orange,Battery Electric,2021,4920
+Placer,Battery Electric,2020,1090
+Placer,Battery Electric,2021,1285
+Placer,Battery Electric,2022,165
+Plumas,Battery Electric,2020,40
+Plumas,Battery Electric,2021,65
+Plumas,Battery Electric,2022,85
+Riverside,Battery Electric,2020,2875
+Riverside,Battery Electric,2021,3520
+Sacramento,Battery Electric,2020,2755
+Sacramento,Battery Electric,2021,3180
+San Benito,Battery Electric,2020,130
+San Benito,Battery Electric,2021,135
+San Bernardino,Battery Electric,2020,2630
+San Bernardino,Battery Electric,2021,3260
+San Diego,Battery Electric,2020,5860
+San Diego,Battery Electric,2021,6620
+San Francisco,Battery Electric,2020,2130
+San Francisco,Battery Electric,2021,2290
+San Joaquin,Battery Electric,2020,1115
+San Joaquin,Battery Electric,2021,1340
+San Luis Obispo,Battery Electric,2020,865
+San Luis Obispo,Battery Electric,2021,1050
+San Mateo,Battery Electric,2020,2755
+San Mateo,Battery Electric,2021,2815
+Santa Barbara,Battery Electric,2020,1085
+Santa Barbara,Battery Electric,2021,1235
+Santa Clara,Battery Electric,2020,6140
+Santa Clara,Battery Electric,2021,6405
+Santa Cruz,Battery Electric,2020,900
+Santa Cruz,Battery Electric,2021,1035
+Shasta,Battery Electric,2020,380
+Shasta,Battery Electric,2021,465
+Shasta,Battery Electric,2022,670
+Sierra,Battery Electric,2022,5
+Siskiyou,Battery Electric,2020,100
+Siskiyou,Battery Electric,2021,135
+Siskiyou,Battery Electric,2022,220
+Solano,Battery Electric,2020,720
+Solano,Battery Electric,2021,810
+Sonoma,Battery Electric,2020,1635
+Sonoma,Battery Electric,2021,1785
+Stanislaus,Battery Electric,2020,855
+Stanislaus,Battery Electric,2021,1010
+Sutter,Battery Electric,2020,145
+Sutter,Battery Electric,2021,185
+Sutter,Battery Electric,2022,235
+Tehama,Battery Electric,2020,100
+Tehama,Battery Electric,2021,125
+Tehama,Battery Electric,2022,165
+Trinity,Battery Electric,2020,40
+Trinity,Battery Electric,2021,70
+Trinity,Battery Electric,2022,90
+Tulare,Battery Electric,2020,575
+Tulare,Battery Electric,2021,665
+Tuolumne,Battery Electric,2020,175
+Tuolumne,Battery Electric,2021,235
+Ventura,Battery Electric,2020,1480
+Ventura,Battery Electric,2021,1670
+Yolo,Battery Electric,2020,520
+Yolo,Battery Electric,2021,615
+Yuba,Battery Electric,2020,150
+Yuba,Battery Electric,2021,160
+Yuba,Battery Electric,2022,80
