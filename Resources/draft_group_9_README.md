@@ -26,6 +26,8 @@ The following data sources have been employed in the project:
 * California Alternative Fuels Data Center; and
 * California Energy Commission.
 
+There are two API calls contained within the notebook that will require API keys. To receive a key for collectapi.com, go to collectapi.com, choose to “sign in” using the menu option at the top of the screen. Then, you can create an account sing an email and password. Once your account is created, you can retrieve your key by navigating to account/profile and clicking on the API token tab. This key is used for learning about gas prices over time. To receive a key for the US Census API, navigate to https://api.census.gov/data/key_signup.html and request a key. You will receive it via email. The variable names for the two keys are collect_api_key and census_api_key. These should be stored in a config.py file in the same working directory as the Jupyter notebook. You will also need to have installed Pypi census and Pypi us using "pip install census" and "pip install us".
+
 ### Adoption Rate for Usage of EVs between Urban Areas and Rural Areas
 Firstly, Unites States Census Bureau data sets were employed from which two data frames were defined with the following parameters.
 * First data frame: County, Zip Code, Year, Population, Household Income, State, and City.
@@ -41,7 +43,10 @@ Fourthly, DMV data was merged into second data frame so that vehicles are define
 Fifthly, the second data frame was aggregated to prepare the data for a visualization.
 
 Lastly, the visualization was generated:
-* Total California EV Car Registrations, Urban and Rural, were plotted to present a time series of car registrations for urban and rural areas
+
+Total California EV Car Registrations, Urban and Rural, were plotted to present a time series of car registrations for urban and rural areas
+
+
 
 ### Adoption Rates of High-Income, Middle-Income, and Lower-Income Neighborhoods 
 
@@ -49,4 +54,6 @@ An analysis of average scores per school spending indicates a clear inverse prop
 
 Given these metrics, it may be concluded that (1) charter schools outperform district schools when measured by math scores, reading scores, and a combined math and reading scores, and (2) the amount of spending per student does not reflect a better result in better math, reading, and a combined math and reading scores. 
 
-It should be noted that the preceding conclusions are based on a very minimal amount of metrics.  The ability to attend charter schools could be determined as a function of a family’s ability to pay tuition.  Measurements inclusive of a family’s income level for each student as well as the addresses and zip codes of the student’s home could indicate neighborhoods that could be characterized as low-, middle-, a high-income neighborhoods which could indicate an ability to pay tuition.   
+It should be noted that the preceding conclusions are based on a very minimal amount of metrics.  The ability to attend charter schools could be determined as a function of a family’s ability to pay tuition.  Measurements inclusive of a family’s income level for each student as well as the addresses and zip codes of the student’s home could indicate neighborhoods that could be characterized as low-, middle-, a high-income neighborhoods which could indicate an ability to pay tuition. 
+
+![Adoption by Income Level](Resources/EV_Income.png)
