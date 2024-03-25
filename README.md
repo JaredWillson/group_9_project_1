@@ -94,4 +94,6 @@ In conclusion, the surge in EV charging stations across California counties sign
 
 ### Correlation between EV Growth Rate and California Gasoline Prices Over Time
 
-Between 2020 and 2022, it was observed that the rate of increase in gasoline prices for Northern and Southern California, as represented by Los Angeles and San Francisco, perfectly mirrored (within less than one percent) the increased adoption of EV's within the state. While it is not possible to establish causation, it is unlikely that the the exact match is accidental.
+Between 2020 and 2022, it was observed that the rate of increase in gasoline prices for Northern and Southern California, as represented by Los Angeles and San Francisco, was closely tied to the increse in EV adoption over the same time period. While it is not possible to establish causation, it is unlikely that the the similarity in growth rate is accidental.
+
+![Gasoline Prices vs EV Adoption](Resources/gas_prices.png)
