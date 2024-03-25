@@ -9,8 +9,9 @@
 
 ## Background
 
-## The presence of Electric Vehicles (EVs) is ubiquitous in California as Californians have adopted the use of EVs.  A recent article published on California.gov titled “California EV Sales Have Skyrocketed in the Last Decade” dated February 22, 2024 by Governor Gavin Newsom, “[o]ne in four new cars sold in California are zero-emission (battery, electric, plug-in hybrid or fuel cell electric).   More ZEVs were sold in California in 2023 than at any point in history[.]”
-## Group 9 has challenged itself to make a presentation which answers the following questions:
+### The presence of Electric Vehicles (EVs) is ubiquitous in California as Californians have adopted the use of EVs.  A recent article published on California.gov titled “California EV Sales Have Skyrocketed in the Last Decade” dated February 22, 2024 by Governor Gavin Newsom, “[o]ne in four new cars sold in California are zero-emission (battery, electric, plug-in hybrid or fuel cell electric).   More ZEVs were sold in California in 2023 than at any point in history[.]”
+
+### Group 9 has challenged itself to make a presentation which answers the following questions:
 * What is the adoption rate for usage of EVs between urban areas and rural areas?
 * Do high-income level neighborhood have a higher adoption rate of EVs than middle-and lower-income neighborhoods?
 * Has the adoption rate increased over the past three years?
@@ -32,6 +33,7 @@ There are two API calls contained within the notebook that will require API keys
 Firstly, Unites States Census Bureau data sets were employed from which two data frames were defined with the following parameters.
 * First data frame: County, Zip Code, Year, Population, Household Income, State, and City.
 * Second data frame: County, Year, Population, and Household Income.
+
 Both data frames were made available for use by all contributors.  Th second data frame would be employed to answer this question presented.
 
 Secondly, geographic areas comprised of area (square miles) and density were added to the second data frame so that urban and rural areas are defined by counties.
@@ -44,7 +46,7 @@ Fifthly, the second data frame was aggregated to prepare the data for a visualiz
 
 Lastly, the visualization was generated:
 
-Total California EV Car Registrations, Urban and Rural, were plotted to present a time series of car registrations for urban and rural areas
+![Statewide Adoption of EVs](Resources/Car_Registrations_Urban_v_Rural.png)
 
 
 
