@@ -14,8 +14,8 @@ The presence of Electric Vehicles (EVs) is ubiquitous in California as Californi
 ### Group 9 has challenged itself to make a presentation which answers the following questions:
 * What is the adoption rate for usage of EVs between urban areas and rural areas?
 * Do high-income level neighborhood have a higher adoption rate of EVs than middle-and lower-income neighborhoods?
-* Has the adoption rate increased over the past three years?
-* What impact, if any, has the end of Clean Vehicle Rebate Program application impacted the adoption rate of EVs?
+* How has the adoption rate changed over the last three years in California? If EV registrations are increasing, is there a corresponding decrease in other fuel sources?
+* Are charging stations increasing at the same rate as the EV adoption rate?
 * Has the increase in gas prices increased the adoption rate of EVs?   
 
 
@@ -69,6 +69,8 @@ Seventhly, vehicle counts per zip codes, counties, and state were generated as a
 Lastly, the following visualizations were generated:    
 
 ![Adoption by Income Level](Resources/EV_Income.png)
+
+![EV Growth by Income Level](Resources/ev_growth_income.png)
 
 
 ### EV’s by County & Fuel Type Comparison
