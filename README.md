@@ -67,7 +67,7 @@ An analysis of fuel types for DMV registrations by county showed there was an in
 
 ![EV Adoption by County and Year](Resources/ev_by_county_and_year.png)
 
-![Fuel Source by Year](Resources/ev_by_year.png)
+![Fuel Source by Year](Resources/fuel_by_year.png)
 
 ### Exploring the remarkable growth of Electric Vehicle (EV) charging stations in California counties, deciphering what these numbers signify for the state's transportation landscape.
 
