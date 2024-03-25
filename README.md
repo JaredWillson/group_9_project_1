@@ -15,5 +15,10 @@ There are two API calls contained within the notebook that will require API keys
 
 ## Results
 
-![Drag Racing](Resources/Car_Registrations_Urban_v_Rural.png)
+![Overall Califoornia Adoption(Resources/Car_Registrations_Urban_v_Rural.png)
 
+We found that, while there is some difference in adoption rates between urban and rural counties, the differences were quite small and were diminishing. On average over the three year period, rural counties lagged by just 7% vs. urban counties and that gap had decreased to 4% as of 2022. 
+
+![Adoption by Income Level (Resources/EV_Income.png)
+
+We also found that adoption rates were significantly higher in the top quartile of household income and were extremely low in the lowest quartile. This is likely due to a combination of factors including higher prices for new EV vehicles, and the relative scarcity of used EV's at the present time.
