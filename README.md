@@ -59,3 +59,23 @@ Given these metrics, it may be concluded that (1) charter schools outperform dis
 It should be noted that the preceding conclusions are based on a very minimal amount of metrics.  The ability to attend charter schools could be determined as a function of a family’s ability to pay tuition.  Measurements inclusive of a family’s income level for each student as well as the addresses and zip codes of the student’s home could indicate neighborhoods that could be characterized as low-, middle-, a high-income neighborhoods which could indicate an ability to pay tuition. 
 
 ![Adoption by Income Level](Resources/EV_Income.png)
+
+
+### EV’s by County & Fuel Type Comparison
+
+An analysis of fuel types for DMV registrations by county showed there was an increase in the number of registered Battery Electric Vehicles in California from 2020 through 2022. Compared to other fuel types, the rise in Battery Electric vehicles (EVs) across California did not signify a decline in other fuel types. Instead, the increase in EV adoption varied significantly among counties, with major cities like Alameda, Los Angeles, Orange County, San Diego, and Santa Clara leading the charge. Notably, Santa Clara saw a remarkable surge from 4% in 2021 to 16% in 2022, while Los Angeles doubled its adoption rate from 11% to 22% during the same period.
+
+![EV Adoption by County and Year](Resources/ev_by_county_and_year.png)
+
+![Fuel Source by Year](Resources/ev_by_year.png)
+
+### Exploring the remarkable growth of Electric Vehicle (EV) charging stations in California counties, deciphering what these numbers signify for the state's transportation landscape.
+
+* Unprecedented Expansion: The data showcases an unprecedented surge in EV charging station deployment across California's diverse counties. This surge signifies a concerted effort to bolster EV infrastructure, catering to the escalating demand for electric vehicles statewide.
+* Interpreting County Trends: By analyzing county-specific data, we uncover varying growth rates in charging station deployment. Densely populated counties such as Los Angeles, Orange, and Santa Clara exhibit particularly significant increases, indicating a heightened embrace of electric mobility in urban centers.
+* Addressing Urban Mobility Demands: The pronounced growth in charging stations within densely populated counties is pivotal in meeting the burgeoning demands of urban mobility. As more residents embrace electric vehicles, accessible charging infrastructure becomes essential for seamless travel experiences in city environments.
+* Catalyzing Sustainable Transportation: The expansion of EV charging stations in populous counties not only facilitates urban mobility but also accelerates the transition towards sustainable transportation. By incentivizing EV adoption in urban hubs, we mitigate environmental impact, reduce congestion, and pave the way for cleaner, healthier communities.
+
+In conclusion, the surge in EV charging stations across California counties signifies a significant shift towards sustainable transportation. As densely populated areas lead the charge in EV adoption, the proliferation of charging infrastructure becomes pivotal for shaping a cleaner, greener future. By understanding these trends and prioritizing investments in EV infrastructure, we can expedite the transition towards a more sustainable transportation ecosystem statewide.
+
+![EV Charging Station Growth](Resources/EV_Charging_Stations.png)
