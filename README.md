@@ -9,7 +9,7 @@
 
 ## Background
 
-### The presence of Electric Vehicles (EVs) is ubiquitous in California as Californians have adopted the use of EVs.  A recent article published on California.gov titled “California EV Sales Have Skyrocketed in the Last Decade” dated February 22, 2024 by Governor Gavin Newsom, “[o]ne in four new cars sold in California are zero-emission (battery, electric, plug-in hybrid or fuel cell electric).   More ZEVs were sold in California in 2023 than at any point in history[.]”
+The presence of Electric Vehicles (EVs) is ubiquitous in California as Californians have adopted the use of EVs.  A recent article published on California.gov titled “California EV Sales Have Skyrocketed in the Last Decade” dated February 22, 2024 by Governor Gavin Newsom, “[o]ne in four new cars sold in California are zero-emission (battery, electric, plug-in hybrid or fuel cell electric).   More ZEVs were sold in California in 2023 than at any point in history[.]”
 
 ### Group 9 has challenged itself to make a presentation which answers the following questions:
 * What is the adoption rate for usage of EVs between urban areas and rural areas?
@@ -27,7 +27,7 @@ The following data sources have been employed in the project:
 * California Alternative Fuels Data Center; and
 * California Energy Commission.
 
-There are two API calls contained within the notebook that will require API keys. To receive a key for collectapi.com, go to collectapi.com, choose to “sign in” using the menu option at the top of the screen. Then, you can create an account sing an email and password. Once your account is created, you can retrieve your key by navigating to account/profile and clicking on the API token tab. This key is used for learning about gas prices over time. To receive a key for the US Census API, navigate to https://api.census.gov/data/key_signup.html and request a key. You will receive it via email. The variable names for the two keys are collect_api_key and census_api_key. These should be stored in a config.py file in the same working directory as the Jupyter notebook. You will also need to have installed Pypi census and Pypi us using "pip install census" and "pip install us".
+There are two API calls contained within the notebook that will require API keys. To receive a key for collectapi.com, go to collectapi.com, choose to “sign in” using the menu option at the top of the screen. Then, create an account sign an email and password. Once your account is created, you can retrieve your key by navigating to account/profile and clicking on the API token tab. This key is used for learning about gas prices over time. To receive a key for the US Census API, navigate to https://api.census.gov/data/key_signup.html and request a key. You will receive it via email. The variable names for the two keys are collect_api_key and census_api_key. These should be stored in a config.py file in the same working directory as the Jupyter notebook. You will also need to have installed Pypi census and Pypi us using "pip install census" and "pip install us".
 
 ### Adoption Rate for Usage of EVs between Urban Areas and Rural Areas
 Firstly, Unites States Census Bureau data sets were employed from which two data frames were defined with the following parameters.
@@ -44,7 +44,7 @@ Fourthly, DMV data was merged into second data frame so that vehicles are define
 
 Fifthly, the second data frame was aggregated to prepare the data for a visualization.
 
-Lastly, the visualization was generated:
+Lastly, the following visualization was generated:
 
 ![Statewide Adoption of EVs](Resources/Car_Registrations_Urban_v_Rural.png)
 
@@ -52,11 +52,21 @@ Lastly, the visualization was generated:
 
 ### Adoption Rates of High-Income, Middle-Income, and Lower-Income Neighborhoods 
 
-An analysis of average scores per school spending indicates a clear inverse proportional relationship between the two.  The overall average passing rate of 90.37% was enjoyed by those schools spending less than $585 per student, a rate of 81.41% for schools spending $585-$630 per student, a rate of 62.86% for schools spending $630-$645, and 53.53% for schools spending more than $645 per student.   
+Firstly, census data and DMV data sets were loaded for employment.
 
-Given these metrics, it may be concluded that (1) charter schools outperform district schools when measured by math scores, reading scores, and a combined math and reading scores, and (2) the amount of spending per student does not reflect a better result in better math, reading, and a combined math and reading scores. 
+Secondly, the DMV data set was reviewed.  Upon review with visual and statistical analysis and in preparation for a subsequent merge with the census data, the data set was cleansed by dropping data deemed to be unnecessary or unusable, the format of date and zip code headers were replaced to conform to the format employed by census data, and EVs were defined by the string “Battery” appearing in the description of vehicle types.  
 
-It should be noted that the preceding conclusions are based on a very minimal amount of metrics.  The ability to attend charter schools could be determined as a function of a family’s ability to pay tuition.  Measurements inclusive of a family’s income level for each student as well as the addresses and zip codes of the student’s home could indicate neighborhoods that could be characterized as low-, middle-, a high-income neighborhoods which could indicate an ability to pay tuition. 
+Thirdly, a summation of the number of EVs was performed in which the following counts were determined for years 2020 through 2022, inclusive.
+
+Fourthly, the census data set was reviewed.  Upon review with visual and statistical analysis, years 2020-2022 were located, the zip code header were renamed to match those in the DMV data, unnecessary data was dropped, and county headers were renamed to match the DMV data.  Then, census data was merged with DMV data.
+
+Fifthly, upper- and lower-income level boundaries were established as a function of 25% and 75% quartiles as applied to household income in 2020-2022.  The middle-income level is defined as those values appearing between the upper- and lower-income levels. 
+
+Sixthly, an analysis of the data after the merge of the DMV data with the census data resulted in non-number data.  This data was dropped.
+
+Seventhly, vehicle counts per zip codes, counties, and state were generated as a function of the upper-, middle- and lower-income levels.    ; zip codes were used to define neighborhoods.
+
+Lastly, the following visualizations were generated:    
 
 ![Adoption by Income Level](Resources/EV_Income.png)
 
@@ -79,3 +89,7 @@ An analysis of fuel types for DMV registrations by county showed there was an in
 In conclusion, the surge in EV charging stations across California counties signifies a significant shift towards sustainable transportation. As densely populated areas lead the charge in EV adoption, the proliferation of charging infrastructure becomes pivotal for shaping a cleaner, greener future. By understanding these trends and prioritizing investments in EV infrastructure, we can expedite the transition towards a more sustainable transportation ecosystem statewide.
 
 ![EV Charging Station Growth](Resources/EV_Charging_Stations.png)
+
+### Correlation between EV Growth Rate and California Gasoline Prices Over Time
+
+Between 2020 and 2022, it was observed that the rate of increase in gasoline prices for Northern and Southern California, as represented by Los Angeles and San Francisco, perfectly mirrored (within less than one percent) the increased adoption of EV's within the state. While it is not possible to establish causation, it is unlikely that the the exact match is accidental.
