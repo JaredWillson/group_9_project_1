@@ -70,7 +70,6 @@ Lastly, the following visualizations were generated:
 
 ![Adoption by Income Level](Resources/EV_Income.png)
 
-![EV Growth by Income Level](Resources/ev_growth_income.png)
 
 
 ### EV’s by County & Fuel Type Comparison
