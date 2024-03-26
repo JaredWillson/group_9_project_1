@@ -29,6 +29,8 @@ The following data sources have been employed in the project:
 
 There are two API calls contained within the notebook that will require API keys. To receive a key for collectapi.com, go to collectapi.com, choose to “sign in” using the menu option at the top of the screen. Then, create an account sign an email and password. Once your account is created, you can retrieve your key by navigating to account/profile and clicking on the API token tab. This key is used for learning about gas prices over time. To receive a key for the US Census API, navigate to https://api.census.gov/data/key_signup.html and request a key. You will receive it via email. The variable names for the two keys are collect_api_key and census_api_key. These should be stored in a config.py file in the same working directory as the Jupyter notebook. You will also need to have installed Pypi census and Pypi us using "pip install census" and "pip install us".
 
+The final presentation is included in these repository and is named Presentation.pdf. In addition, it can be found at the following URL: https://docs.google.com/presentation/d/1Ww1zy61eKN1SsBxXx2e4CnMW1G51-YG9ChfCl8hax8E/edit#slide=id.p
+
 ### Adoption Rate for Usage of EVs between Urban Areas and Rural Areas
 Firstly, Unites States Census Bureau data sets were employed from which two data frames were defined with the following parameters.
 * First data frame: County, Zip Code, Year, Population, Household Income, State, and City.
